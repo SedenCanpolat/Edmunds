@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-   public Rigidbody2D rb;
+   //public Rigidbody2D rb;
     
     public float speed;
     public Transform leftBorder;
