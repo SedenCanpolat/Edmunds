@@ -10,6 +10,7 @@ public class Password : MonoBehaviour
     // public Buttons buttons;
     private string input;
     private int Pass;
+    public GameObject Password_screen;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +44,7 @@ public class Password : MonoBehaviour
         }
         else if(input!= "1234"){
             Debug.Log("Ceylin");
+            Password_screen.SetActive(false);
 
             //buttons.Meet_password_Close();
            
