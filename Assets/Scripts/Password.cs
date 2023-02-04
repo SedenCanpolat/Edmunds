@@ -7,12 +7,12 @@ using UnityEngine.SceneManagement;
 public class Password : MonoBehaviour
 {
     private string[] password = {"0","0","0","0"};
-    private string[] correct = {"1","1","1","1"};
+    private string[] correct = {"1","2","3","4"};
 
     // public Buttons buttons;
     private string input;
     private int Pass;
-    public GameObject Password_screen;
+    //public GameObject Password_screen;
 
     public void Enter(){
        if(password[0]==correct[0] && password[1]==correct[1] && password[2]==correct[2] && password[3]==correct[3]){
