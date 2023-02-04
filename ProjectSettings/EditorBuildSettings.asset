@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/12Diolog1.unity
     guid: 72d5820a0d44eb647ad6182af92ccfd0
+  - enabled: 1
+    path: Assets/Scenes/13Dialog1.2.unity
+    guid: 868b61439b0810b45917d3eeb4d72439
   m_configObjects: {}
