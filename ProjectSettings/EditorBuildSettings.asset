@@ -30,6 +30,18 @@ EditorBuildSettings:
     path: Assets/Scenes/6Weapon.unity
     guid: 55ce77b52705f774f9ba98a3386780c5
   - enabled: 1
-    path: Assets/Scenes/7Letter.unity
-    guid: 02ee3c7f461a90549b6ddff4565e1c2a
+    path: Assets/Scenes/7Lettter.unity
+    guid: 9846dab5652df3e4f865e37df2f5f6fb
+  - enabled: 1
+    path: Assets/Scenes/8Dialog2.unity
+    guid: 16dc6c5c770cf4c4b8051f3217d93a4e
+  - enabled: 1
+    path: Assets/Scenes/9Dialog3.unity
+    guid: 5a84c86632b769b458533a205819342f
+  - enabled: 1
+    path: Assets/Scenes/10Dialog4.unity
+    guid: 31f7a7c7ed4b49947bff1d1de273d383
+  - enabled: 1
+    path: Assets/Scenes/11Stone.unity
+    guid: 07c1a3dcf28d473478a3f9107ea8d2e5
   m_configObjects: {}

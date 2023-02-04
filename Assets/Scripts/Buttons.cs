@@ -34,6 +34,22 @@ public class Buttons : MonoBehaviour
     public void SwitchScene4(){
         SceneManager.LoadScene(4);
     }
+
+    //DİALOG
+
+    public void Dialog2(){
+        SceneManager.LoadScene(8);
+    }
+    public void Dialog3(){
+        SceneManager.LoadScene(9);
+    }
+    public void Dialog4(){
+        SceneManager.LoadScene(10);
+    }
+
+
+
+
 }
 
 
