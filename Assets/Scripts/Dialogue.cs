@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Dialogue : MonoBehaviour
 {
@@ -26,12 +27,8 @@ public class Dialogue : MonoBehaviour
         }
         else{
             StopAllCoroutines();
-            textComponent.text = lines[index];
-            
-
-            
-        }
-        
+            textComponent.text = lines[index];   
+        }  
     }
 
 
@@ -53,8 +50,13 @@ public class Dialogue : MonoBehaviour
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
         }
+        /*else if(index == lines.Length){
+            SceneManager.LoadScene(3);
+        }*/
         else{
-            gameObject.SetActive(false);
+            SceneManager.LoadScene(3);
+            Debug.Log("ssssss");
+            //gameObject.SetActive(false);
         }
     }
 
