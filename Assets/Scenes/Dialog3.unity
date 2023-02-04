@@ -709,7 +709,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2110581320}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: SwitchScene3
+        m_MethodName: SwitchScene4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -843,7 +843,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2110581320}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: SwitchScene1
+        m_MethodName: SwitchScene2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1234,7 +1234,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1526961844}
-  - component: {fileID: 1526961843}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1242,21 +1241,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1526961843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526961842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18dd9ba961a54814dbe5a917d78abae3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  leftBorder: {fileID: 1540476035}
-  rightBorder: {fileID: 1364855373}
 --- !u!4 &1526961844
 Transform:
   m_ObjectHideFlags: 0
@@ -1362,7 +1346,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e15a7301d6fe02f469c66534e0afc6bf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d2ff48c1cfce444586abf62d08c26af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
