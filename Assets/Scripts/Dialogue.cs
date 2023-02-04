@@ -27,6 +27,9 @@ public class Dialogue : MonoBehaviour
         else{
             StopAllCoroutines();
             textComponent.text = lines[index];
+            
+
+            
         }
         
     }

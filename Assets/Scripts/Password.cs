@@ -9,6 +9,10 @@ public class Password : MonoBehaviour
     private string[] password = {"0","0","0","0"};
     private string[] correct = {"1","1","1","1"};
 
+    // public Buttons buttons;
+    private string input;
+    private int Pass;
+    public GameObject Password_screen;
 
     public void Enter(){
        if(password[0]==correct[0] && password[1]==correct[1] && password[2]==correct[2] && password[3]==correct[3]){
@@ -16,8 +20,6 @@ public class Password : MonoBehaviour
        }
 
     }
-
-
 
     public void GetInput1(){
         
@@ -37,8 +39,6 @@ public class Password : MonoBehaviour
             password[3] = "1";
             Debug.Log("d");
         }
-
-    Debug.Log("ss");
     }
     
     public void GetInput2(){
@@ -168,6 +168,6 @@ public class Password : MonoBehaviour
             password[3] = "9";
         }
     }
-}
 
+}
   
