@@ -468,7 +468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1118,7 +1118,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 265182231}
   lines:
-  - aa
+  - My father's letter...
+  - 'I didn''t know he left me something like this. '
+  - My father understood me more than I thought.
+  - But there are parts of the letter I don't understand.
+  - What did he mean when he wrote that I was too late for some things?
+  - Why did he use the expression "locking the page"?
   textSpeed: 0
 --- !u!1 &1074605125
 GameObject:
