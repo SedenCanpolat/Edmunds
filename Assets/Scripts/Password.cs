@@ -22,6 +22,7 @@ public class Password : MonoBehaviour
     public void Enter(){
        if(password[0]==correct[0] && password[1]==correct[1] && password[2]==correct[2] && password[3]==correct[3]){
          Debug.Log("doğru");
+         SceneManager.LoadScene(6);
        }
 
     }
