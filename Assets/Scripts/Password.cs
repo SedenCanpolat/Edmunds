@@ -27,7 +27,7 @@ public class Password : MonoBehaviour
     public void ReadStringInput(string s){
         input = s;
         Debug.Log(input);
-        if(input == "sude"){
+        if(input == "1234"){
             Pass = 1;
             if(Pass == 1){
                 Debug.Log("Seden");
@@ -41,7 +41,7 @@ public class Password : MonoBehaviour
             }    
        
         }
-        else if(input!= "sude"){
+        else if(input!= "1234"){
             Debug.Log("Ceylin");
 
             //buttons.Meet_password_Close();
