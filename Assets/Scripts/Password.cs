@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Password : MonoBehaviour
 {
     private string[] password = {"0","0","0","0"};
-    private string[] correct = {"1","2","3","4"};
+    private string[] correct = {"1","2","1","9"};
 
    
     public GameObject Y1;
