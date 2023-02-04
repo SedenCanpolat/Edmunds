@@ -54,8 +54,8 @@ public class Dialogue : MonoBehaviour
             SceneManager.LoadScene(3);
         }*/
         else{
-            SceneManager.LoadScene(3);
-            Debug.Log("ssssss");
+            SceneManager.LoadScene(2);
+       
             //gameObject.SetActive(false);
         }
     }
