@@ -22,11 +22,9 @@ public class Level1 : MonoBehaviour
         timer -= Time.deltaTime;
 //        timerSeconds.text = timer.ToString("f2");
         if(timer <= 0){
-           SceneManager.LoadScene(13);
+           SceneManager.LoadScene(11);
         }
         
     }
-     public void SwitchScene1(){
-        SceneManager.LoadScene(1);
-    }
+   
 }
