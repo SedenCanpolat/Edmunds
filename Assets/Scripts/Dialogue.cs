@@ -46,19 +46,28 @@ public class Dialogue : MonoBehaviour
     }
 
     void NextLine(){
+         Scene scene =  SceneManager.GetActiveScene();
         if(index < lines.Length - 1){
             index++;
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
         }
-        /*else if(index == lines.Length){
-            SceneManager.LoadScene(3);
-        }*/
-        else{
-            SceneManager.LoadScene(2);
-       
-            //gameObject.SetActive(false);
+        else if(scene.name == "12Diolog1") {
+            SceneManager.LoadScene(1);
         }
+        else if(scene.name == "13Dialog1.2") {
+            SceneManager.LoadScene(1);
+        }
+        else if(scene.name == "8Dialog2") {
+            SceneManager.LoadScene(2);
+        }
+        else if(scene.name == "9Dialog3") {
+            SceneManager.LoadScene(3);
+        }
+        else if(scene.name == "10Dialog4") {
+            SceneManager.LoadScene(4);
+        }
+        
     }
 
 }
