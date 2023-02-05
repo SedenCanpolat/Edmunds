@@ -44,6 +44,7 @@ public class Dialogue : MonoBehaviour
             yield return new WaitForSeconds(textSpeed);
         }
     }
+    
 
     void NextLine(){
          Scene scene =  SceneManager.GetActiveScene();
@@ -53,7 +54,7 @@ public class Dialogue : MonoBehaviour
             StartCoroutine(TypeLine());
         }
         else if(scene.name == "12Diolog1") {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(11);
         }
         else if(scene.name == "13Dialog1.2") {
             SceneManager.LoadScene(1);
@@ -65,7 +66,8 @@ public class Dialogue : MonoBehaviour
             SceneManager.LoadScene(3);
         }
         else if(scene.name == "10Dialog4") {
-            SceneManager.LoadScene(4);
+
+            SceneManager.LoadScene(16);
         }
         
     }

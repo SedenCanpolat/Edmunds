@@ -51,6 +51,21 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene(13);
     }
 
+      public void SwitchScene12(){
+        SceneManager.LoadScene(12);
+    }
+
+    public void SwitchScene14(){
+        SceneManager.LoadScene(14);
+    }
+
+    public void SwitchScene15(){
+        SceneManager.LoadScene(15);
+    }
+
+    public void SwitchScene0(){
+    SceneManager.LoadScene(0);
+   }
 
 
 }
