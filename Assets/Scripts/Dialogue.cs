@@ -63,12 +63,13 @@ public class Dialogue : MonoBehaviour
             SceneManager.LoadScene(2);
         }
         else if(scene.name == "9Dialog3") {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(16);
         }
         else if(scene.name == "10Dialog4") {
 
-            SceneManager.LoadScene(16);
+            SceneManager.LoadScene(4);
         }
+
         
     }
 
