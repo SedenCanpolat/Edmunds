@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Level1 : MonoBehaviour
 {
     public string levelToLoad;
-    private float timer = 10f;
+    private float timer = 7f;
     private Text timerSeconds;
     // Start is called before the first frame update
     void Start()
